@@ -9,7 +9,7 @@ namespace tpmodul5_1302210022
 {
     internal class HaloGeneric
     {
-        public void SapaUser<X>(X user)
+        public void SapaUser<T>(T user)
         {
             Console.WriteLine("Halo user " + user);
         }
